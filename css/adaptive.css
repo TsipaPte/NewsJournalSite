@@ -1,0 +1,28 @@
+@media (max-width: 850px) {
+    .learn-btn {
+        width: 40%;
+    }
+    .all-news-btn {
+        width: 40%;
+    }
+}
+@media (max-width: 650px) {
+    .partners-list {
+        display: block;
+    }
+    .partner {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 330px) {
+    .nav-links {
+        display: block;
+        padding-right: 30px;
+    }
+    .learn-btn {
+        width: 60%;
+    }
+    .all-news-btn {
+        width: 60%;
+    }
+}
