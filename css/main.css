@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+::selection {
+    background-color: #95dfa5;
+}
+body {
+    font-family: Raleway, 'Yu Gothic UI Light', Arial, sans-serif;
+    background-color: #f3f3f3;
+    max-width: 85%;
+    margin: 0 auto;
+}
+button {
+    user-select: none;
+    cursor: pointer;
+}
+.main-header {
+    background-image: linear-gradient(to left, #363d46, #585c66, #7d7e88, #a3a1ab, #cbc6cf);
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 16px;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+}
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .3s;
+}
+.nav-links a:hover {
+    color: #98cc5c;
+    transition: color .3s;
+}
+.hero, .latest-news {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.partners-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.partner {
+    transition: all .3s;
+    cursor: pointer;
+}
+.partner:hover {
+    font-size: 20px;
+    transition: all .3s;
+}
+.gosuslugi:hover {
+    color: #a83e3e;
+}
+.microsoft:hover {
+    color: #3e75a8;
+}
+.tinkoff:hover {
+    color: #a6a83e;
+}
+.mail-bank:hover {
+    color: #3e9ca8;
+}
+.whatsapp:hover {
+    color: #4aa83e;
+}
+.latest-news {
+    background-color: #cfcfcf;
+}
+.latest-new {
+    background-color: #b4b4b4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.learn-btn {
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #3e9ca8;
+    width: 20%;
+    transition: background-color .3s;
+}
+.learn-btn:hover {
+    background-color: #3e9ca8;
+    border: 2px solid #3e9ca8;
+    transition: background-color .3s;
+}
+.learn-btn:focus {
+    background-color: #237681;
+    border: 2px solid #237681;
+    transition: all .3s;
+}
+.all-news-btn {
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #3e63a8;
+    width: 20%;
+    transition: background-color .3s;
+}
+.all-news-btn:hover {
+    background-color: #23499b;
+    border: 2px solid #23499b;
+    transition: background-color .3s;
+    color: #ffffff;
+}
+.all-news-btn:focus {
+    background-color: #14407a;
+    border: 2px solid #14407a;
+    transition: all .3s;
+    color: #ffffff;
+}
+footer {
+    text-align: center;
+}
