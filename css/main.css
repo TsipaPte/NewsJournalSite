@@ -57,19 +57,19 @@ button {
     font-size: 20px;
     transition: all .3s;
 }
-.gosuslugi:hover {
+.partner1:hover {
     color: #a83e3e;
 }
-.microsoft:hover {
+.partner2:hover {
     color: #3e75a8;
 }
-.tinkoff:hover {
+.partner3:hover {
     color: #a6a83e;
 }
-.mail-bank:hover {
+.partner4:hover {
     color: #3e9ca8;
 }
-.whatsapp:hover {
+.partner5:hover {
     color: #4aa83e;
 }
 .latest-news {
